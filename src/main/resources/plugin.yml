@@ -1,0 +1,6 @@
+name: RewardMe
+version: ${project.version}
+main: com.athamus.rewardme.Main
+api-version: 1.19
+authors: [joshscoper]
+description: A lightweight reward plugin
