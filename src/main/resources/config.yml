@@ -1,7 +1,5 @@
 #RewardMe by Joshscoper#
 Configuration:
-  vault_enabled: true
-  reset_on_reward: true #sets the player's count to 0 (i.e. once a player reaches the amount required the count returns to 0)#
   prefix: "&6&lReward&eMe"
 
 #Block types can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html#

@@ -1,33 +1,26 @@
-#Reward Configuration#
-#Reward Types: ITEM,MONEY,COMMAND#
-#To use the MONEY reward type Vault must be on your server#
+# Reward Configuration#
+# Reward Types: ITEM,MONEY,COMMAND#
+# To use the MONEY reward type Vault must be on your server#
 
 default_item:
-  reward_title: "&eChallenge Complete"
-  reward_message: "%prefix% you've earned a reward!"
-  reward_sound: "BLOCK_NOTE_BLOCK_PLING" #Copy sounds from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html#
-  reward_type: "ITEM"
-  item: "DIAMOND"
+  reward_title: '&eChallenge Complete'
+  reward_message: '%prefix% you''ve earned a reward!'
+  reward_sound: 'BLOCK_NOTE_BLOCK_PLING' # Copy sounds from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html#
+  reward_type: 'ITEM'
+  item: 'DIAMOND'
   amount: 5
-  #item_meta is optional. If you want a default item leave this section out#
+  # item_meta is optional. If you want a default item leave this section out#
   item_meta:
-    display_name: "This is a default reward"
+    display_name: 'This is a default reward'
     custom_model_data: 1
     lore:
-      - "line1"
-      - "line2"
-      - "line3"
-
-default_money:
-  reward_title: ""
-  reward_message: ""
-  reward_sound: "BLOCK_NOTE_BLOCK_PLING" #Copy sounds from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html#
-  reward_type: "MONEY"
-  amount: 100
+      - 'line1'
+      - 'line2'
+      - 'line3'
 
 default_command:
-  reward_title: ""
-  reward_message: ""
-  reward_sound: "BLOCK_NOTE_BLOCK_PLING" #Copy sounds from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html#
-  reward_type: "COMMAND"
-  command: "/broadcast Hello World!"
+  reward_title: ''
+  reward_message: ''
+  reward_sound: 'BLOCK_NOTE_BLOCK_PLING' # Copy sounds from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html#
+  reward_type: 'COMMAND'
+  command: '/broadcast Hello World!'

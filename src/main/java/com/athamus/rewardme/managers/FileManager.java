@@ -1,10 +1,8 @@
 package com.athamus.rewardme.managers;
 
 import com.athamus.rewardme.Main;
-import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.yaml.snakeyaml.Yaml;
 
 import java.io.File;
 import java.io.IOException;
